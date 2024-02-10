@@ -92,9 +92,9 @@ public class Main {
         int thisYear = 2024;
         int beforeStart = thisYear - 200;
         int afterStart = thisYear + 100;
-        for ( year = beforeStart; year<= afterStart; year ++) {
-            if(year % 79 == 0)
-            System.out.println(year);
+        for (year = beforeStart; year <= afterStart; year++) {
+            if (year % 79 == 0)
+                System.out.println(year);
         }
 
 
